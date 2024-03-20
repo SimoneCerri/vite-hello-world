@@ -1,15 +1,19 @@
-<script setup>
-import { ref } from 'vue'
+<script>
+/* import { ref } from 'vue'
 
-/* defineProps({
-  msg: String,
-})
-
-const count = ref(0) */
+export porcoddio {
+  data()
+  {
+    return{
+      try: "First Try"
+    }
+  }
+}
+ */
 </script>
 
 <template>
-  
+  <p>{{ try }}</p>
 </template>
 
 <style>

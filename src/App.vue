@@ -1,6 +1,5 @@
 <script>
-import FirstTry from './components/FirstTry.vue'
-
+/* import FirstTry from './component/FirstTry.vue' */
 
 export default {
   data()
