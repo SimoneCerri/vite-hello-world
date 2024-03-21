@@ -1,5 +1,5 @@
 <script>
-/* import FirstTry from './component/FirstTry.vue' */
+import FirstTry from './components/FirstTry.vue'
 
 export default {
   data()
@@ -7,6 +7,9 @@ export default {
     return{
       textMessage: "Hello World !"
     }
+  },
+  components:{
+    FirstTry
   }
 }
 </script>
@@ -15,6 +18,8 @@ export default {
   <div class="booty">
     <h1 class="title">{{ textMessage }}</h1>
   </div>
+  <FirstTry/>
+
   
 </template>
 
